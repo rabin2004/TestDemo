@@ -32,7 +32,7 @@ public class HomePageTest extends TestBase {
 	// Sign in button clickable
 	 @Given ("^user enters url$")
 	 public void user_enters_url() {
-		System.out.println(homepage.HomePageTitle());
+		homepage.HomePageTitle();
 	 }
 	 
 	 @When ("^user clicks login button$")
